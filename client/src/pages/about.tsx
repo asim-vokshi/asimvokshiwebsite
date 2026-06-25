@@ -6,16 +6,16 @@ import { Target, Globe, Users, Award, BookOpen, Sparkles, Compass } from "lucide
 import { SCHOOL_IMAGES } from "@/lib/assets";
 
 const timeline = [
-  { year: "1916-1918", title: "Fillimet e Asim Vokshit", desc: "Asim Vokshi nis arsimin fillor në Gjakovë, qytetin e tij të lindjes, në një familje me tradita të forta patriotike." },
-  { year: "1932", title: "Akademia Ushtarake", desc: "Përfundon Akademinë Ushtarake në Itali dhe kthehet në Shqipëri me gradën nëntoger, duke shërbyer me devotshmëri." },
-  { year: "1937", title: "Lufta e Spanjës", desc: "Merr pjesë aktive në luftën e Spanjës dhe vdes heroikisht në Spanjë më 4 tetor 1937." },
-  { year: "1965", title: "Themelimi i Shkollës", desc: "Më 15 shtator 1965, hapet zyrtarisht Shkolla e Mesme me Orientim Gjuhësor në Tiranë, duke ofruar gjuhët anglisht, frëngjisht, rusisht dhe latinisht." },
-  { year: "1977", title: "Emërtimi 'Asim Vokshi'", desc: "Në nderim të figurës së shquar historike dhe patriotike, shkolla merr zyrtarisht emrin 'Asim Vokshi'." },
-  { year: "1979-1980", title: "Zgjerimi i Gjuhëve", desc: "Shtohen lëndët e përgjithshme (histori, gjeografi) si dhe gjuhët italisht, gjermanisht dhe spanjollisht." },
-  { year: "1998", title: "Seksionet Dygjuhëshe", desc: "Hapen seksionet e para dygjuhëshe: italisht-shqip dhe frëngjisht-shqip, duke krijuar standarde të reja europiane." },
-  { year: "2004", title: "Reforma e Tri Gjuhëve", desc: "Ndryshohet plani mësimor, duke u dhënë nxënësve mundësinë të mësojnë tri gjuhë të huaja dhe duke përfshirë informatikën dhe psikologjinë." },
-  { year: "2010", title: "Gjimnaz Gjuhësor", desc: "Shkolla kthehet zyrtarisht në Gjimnaz me Orientim Gjuhësor pas reformës arsimore të vitit 2009." },
-  { year: "2024", title: "Rikonstruksioni i Plotë", desc: "Në shkurt 2024, përfundon rikonstruksioni i plotë i godinës me mbështetjen e programit EU4Schools, financuar nga BE dhe zbatuar nga UNDP." }
+  { year: "1916-1918", title: "Fillimet e Asim Vokshit", desc: "Asim Vokshi lindi në Gjakovë, Kosovë, në një familje me tradita patriotike. Arsimin fillor e nisi në qytetin e lindjes gjatë viteve 1916-1918 dhe e përfundoi në Kolgecaj." },
+  { year: "1932", title: "Akademia Ushtarake", desc: "Ndoqi Akademinë Ushtarake në Itali, nga u kthye në vitin 1932 me gradën nëntoger. Ai mori pjesë edhe në luftën e Spanjës." },
+  { year: "1937", title: "Vdekja në Spanjë", desc: "Vdiq në Spanjë, më 4 tetor 1937." },
+  { year: "1965", title: "Themelimi i Shkollës", desc: "Shkolla e Mesme me Orientim Gjuhësor u hap në Tiranë më 15 shtator 1965 dhe fillimisht ofronte mësim të gjuhëve anglisht, frëngjisht, rusisht dhe latinisht." },
+  { year: "1977", title: "Emërtimi 'Asim Vokshi'", desc: "Në vitin 1977, shkolla mori emrin 'Asim Vokshi'." },
+  { year: "1979-1980", title: "Zgjerimi i Gjuhëve", desc: "Në vitin shkollor 1979–1980 u shtuan italishtja, gjermanishtja dhe spanjishtja, të cilat u rihapën në vitin 1990 pas një ndërprerjeje. Nga viti 1980, u zhvilluan edhe disa lëndë të përgjithshme, si historia dhe gjeografia." },
+  { year: "1998", title: "Seksionet Dygjuhëshe", desc: "Në vitin 1998 u hapën seksionet dygjuhëshe italisht-shqip dhe frëngjisht-shqip." },
+  { year: "2004", title: "Reforma e Tri Gjuhëve", desc: "Në vitin 2004 u ndryshua plani mësimor, duke u dhënë nxënësve mundësinë të mësonin tri gjuhë të huaja dhe duke përfshirë lëndë të reja, si informatika dhe psikologjia." },
+  { year: "2009-2010", title: "Gjimnaz Gjuhësor", desc: "Shkolla u përfshi në reformën arsimore në vitin 2009 dhe në 2010 u kthye në gjimnaz me orientim gjuhësor." },
+  { year: "2024", title: "Rikonstruksioni i Plotë", desc: "Në shkurt 2024 përfundoi rikonstruksioni i plotë i godinës me mbështetjen e programit EU4Schools, financuar nga BE-ja dhe zbatuar nga UNDP. Sot, shkolla është e pajisur me laboratorë modernë, klasa me tabela interaktive e projektorë, bibliotekë dhe mjedise sportive." }
 ];
 
 const leadership = [
