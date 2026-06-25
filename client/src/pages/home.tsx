@@ -276,7 +276,7 @@ export default function Home() {
             className="bg-[#07111F]/90 backdrop-blur-xl rounded-3xl border border-white/10 shadow-2xl shadow-black/50 grid grid-cols-2 lg:grid-cols-4 divide-x divide-white/10 divide-y lg:divide-y-0 overflow-hidden"
           >
             <StatCounter value={1965} label="Themelimi" icon={Award} />
-            <StatCounter value={40} label="Staf Akademik" icon={Users} />
+            <StatCounter value={54} label="Staf Akademik" icon={Users} />
             <StatCounter value={7} label="Gjuhë të Huaja" icon={Globe} />
             <StatCounter value={2} label="Seksione Dygjuhëshe" icon={TrendingUp} />
           </motion.div>
@@ -300,7 +300,7 @@ export default function Home() {
             {[
               "EU4Schools", "RYCO Western Balkans", "IDMC", "Ambasada Franceze", 
               "Ambasada Italiane", "Ambasada Gjermane", "Ambasada Spanjolle", 
-              "Ambasada Turke", "BE / UNDP", "Festivali Frankofon", "Java e Kulturës Italiane"
+              "Ambasada Turke", "BE ",  "UNDP"
             ].map((partner, index) => (
               <div key={`p1-${index}`} className="flex items-center gap-3 whitespace-nowrap shrink-0">
                 <div className="w-2 h-2 rounded-full bg-crimson shadow-[0_0_10px_#FF3B5C] shrink-0" />
@@ -311,9 +311,9 @@ export default function Home() {
             ))}
             {/* Second Set of Items for Seamless Infinite Loop */}
             {[
-              "EU4Schools", "RYCO Western Balkans", "IDMC", "Ambasada Franceze", 
+             "EU4Schools", "RYCO Western Balkans", "IDMC", "Ambasada Franceze", 
               "Ambasada Italiane", "Ambasada Gjermane", "Ambasada Spanjolle", 
-              "Ambasada Turke", "BE / UNDP", "Festivali Frankofon", "Java e Kulturës Italiane"
+              "Ambasada Turke", "BE ",  "UNDP"
             ].map((partner, index) => (
               <div key={`p2-${index}`} className="flex items-center gap-3 whitespace-nowrap shrink-0">
                 <div className="w-2 h-2 rounded-full bg-crimson shadow-[0_0_10px_#FF3B5C] shrink-0" />
@@ -336,7 +336,7 @@ export default function Home() {
               <span className="text-crimson text-xs uppercase tracking-widest font-bold mb-3 inline-block">Mundësitë Tona</span>
               <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">Zbulo Shkollën</h2>
               <p className="text-white/50 text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
-                Gjithçka që duhet të dini për institucionin tonë, mjediset bashkëkohore dhe programet akademike.
+                Gjithçka që duhet të dini për shkollen tonë, mjediset bashkëkohore dhe programet akademike.
               </p>
             </div>
           </AnimateOnView>
@@ -481,19 +481,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* INTERACTIVE CELEBRATION DELIGHT */}
-      <section className="py-20 bg-[#04090F] relative overflow-hidden border-t border-b border-white/5">
-        <div className="max-w-4xl mx-auto px-4 text-center space-y-6 relative z-10">
-          <motion.div
-            whileHover={{ scale: 1.05, rotate: [0, -1, 1, 0] }}
-            onClick={triggerConfetti}
-            className="inline-flex items-center gap-2 px-6 py-3 bg-white/5 hover:bg-crimson/10 text-amber-400 hover:text-crimson border border-white/10 hover:border-crimson/30 rounded-2xl cursor-pointer shadow-lg transition-all duration-300 group"
-          >
-            <Sparkles size={18} className="animate-pulse" />
-            <span className="text-xs font-bold uppercase tracking-widest">Kliko për të festuar 60 Vite Ekselencë!</span>
-          </motion.div>
-        </div>
-      </section>
+      
 
       {/* NEWS PREVIEW */}
       <section className="py-32 bg-[#07111F]/30 relative overflow-hidden">
