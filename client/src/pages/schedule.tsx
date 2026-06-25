@@ -49,14 +49,7 @@ export default function Schedule() {
               Orari i Nxënësve
             </motion.h1>
 
-            <motion.p
-              initial={{ y: 15, opacity: 0 }}
-              animate={{ y: 0, opacity: 0.75 }}
-              transition={{ delay: 0.2, duration: 0.6 }}
-              className="text-white/70 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed"
-            >
-              Orari mësimor për nxënësit do të publikohet këtu pasi të fillojë viti i ri shkollor dhe të miratohet informacioni zyrtar nga shkolla.
-            </motion.p>
+           
           </div>
 
           {hasSchedules ? (
