@@ -6,9 +6,6 @@ import { Target, Globe, Users, Award, BookOpen, Sparkles, Compass } from "lucide
 import { SCHOOL_IMAGES } from "@/lib/assets";
 
 const timeline = [
-  { year: "1916-1918", title: "Fillimet e Asim Vokshit", desc: "Asim Vokshi lindi në Gjakovë, Kosovë, në një familje me tradita patriotike. Arsimin fillor e nisi në qytetin e lindjes gjatë viteve 1916-1918 dhe e përfundoi në Kolgecaj." },
-  { year: "1932", title: "Akademia Ushtarake", desc: "Ndoqi Akademinë Ushtarake në Itali, nga u kthye në vitin 1932 me gradën nëntoger. Ai mori pjesë edhe në luftën e Spanjës." },
-  { year: "1937", title: "Vdekja në Spanjë", desc: "Vdiq në Spanjë, më 4 tetor 1937." },
   { year: "1965", title: "Themelimi i Shkollës", desc: "Shkolla e Mesme me Orientim Gjuhësor u hap në Tiranë më 15 shtator 1965 dhe fillimisht ofronte mësim të gjuhëve anglisht, frëngjisht, rusisht dhe latinisht." },
   { year: "1977", title: "Emërtimi 'Asim Vokshi'", desc: "Në vitin 1977, shkolla mori emrin 'Asim Vokshi'." },
   { year: "1979-1980", title: "Zgjerimi i Gjuhëve", desc: "Në vitin shkollor 1979–1980 u shtuan italishtja, gjermanishtja dhe spanjishtja, të cilat u rihapën në vitin 1990 pas një ndërprerjeje. Nga viti 1980, u zhvilluan edhe disa lëndë të përgjithshme, si historia dhe gjeografia." },
@@ -159,7 +156,7 @@ export default function About() {
                     Asim Vokshi lindi në Gjakovë, Kosovë, në një familje me tradita patriotike. Arsimin fillor e nisi në qytetin e lindjes gjatë viteve 1916-1918 dhe e përfundoi në Kolgecaj. Shkollën e mesme e kreu në Shkodër.
                   </p>
                   <p>
-                    Më pas, ndoqi Akademinë Ushtarake në Itali, nga u kthye në vitin 1932 me gradën nëntoger. Ai mori pjesë gjithashtu në luftën e Spanjës, duke treguar trimëri të madhe patriotike dhe vdiq heroikisht në Spanjë, më 4 tetor 1937.
+                    Më pas, ndoqi Akademinë Ushtarake në Itali, nga u kthye në vitin 1932 me gradën nëntoger. Ai mori pjesë dhe në luftën e Spanjës. Vdiq në Spanjë, më 4 tetor 1937.
                   </p>
                 </div>
               </div>
