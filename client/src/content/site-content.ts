@@ -86,7 +86,7 @@ export const siteImages = {
   sports:
     "/images/sports.jpeg",
   last_bell:
-    "/images/extra5.jpeg",
+    "/images/WhatsApp Image 2026-06-25 at 15.17.01.jpeg",
   last_bell_2:
     "/images/extra6.jpeg",
   last_bell_3:
@@ -113,7 +113,7 @@ export const newsItems: NewsItem[] = [
     content:
       "Sot u mbajt ceremonia tradicionale dhe emocionuese e 'Ziljes së Fundit' për maturantët e vitit 2026 të Shkollës së Mesme me Orientim Gjuhësor 'Asim Vokshi'.\n\nNë prani të mësuesve, prindërve dhe miqve, maturantët festuan përfundimin e këtij kapitulli të rëndësishëm të jetës së tyre me këngë, kujtime të bukura dhe premtime për të ardhmen. Shkolla u mbush me ngjyra, balona dhe përqafime të ngrohta, duke shënuar një ditë që do të mbetet gjatë në kujtesën e secilit prej nesh. Suksese të gjithë maturantëve në rrugëtimin e tyre të ri!",
     category: "Aktivitete",
-    imageUrl: siteImages.last_bell,
+    imageUrl: siteImages.WhatsApp Image 2026-06-25 at 15.17.01.jpeg,
     publishedAt: daysAgo(0),
     featured: true,
   },
